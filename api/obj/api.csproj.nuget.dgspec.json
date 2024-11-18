@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hamza.belyahiaoui.FRLT284411\\OneDrive - SPIE\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\api\\api.csproj": {}
+    "C:\\Users\\hamza.belyahiaoui.FRLT284411\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hamza.belyahiaoui.FRLT284411\\OneDrive - SPIE\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\api\\api.csproj": {
+    "C:\\Users\\hamza.belyahiaoui.FRLT284411\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamza.belyahiaoui.FRLT284411\\OneDrive - SPIE\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\api\\api.csproj",
-        "projectName": "api",
-        "projectPath": "C:\\Users\\hamza.belyahiaoui.FRLT284411\\OneDrive - SPIE\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\hamza.belyahiaoui.FRLT284411\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "C:\\Users\\hamza.belyahiaoui.FRLT284411\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\hamza.belyahiaoui.FRLT284411\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamza.belyahiaoui.FRLT284411\\OneDrive - SPIE\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\api\\obj\\",
+        "outputPath": "C:\\Users\\hamza.belyahiaoui.FRLT284411\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

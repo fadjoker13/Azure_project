@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EZFpUXuepYE=",
+  "dgSpecHash": "1S3et7kazy/pad0HYFwzinH3/OeqmrdQoeeFGkkNZw4zybUxXfs3P3qa1O/5Pelg1RZE1R/G+l9nDQDmdonpUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hamza.belyahiaoui.FRLT284411\\OneDrive - SPIE\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\hamza.belyahiaoui.FRLT284411\\Bureau\\ecole supinfo\\examen\\azure_project\\projet\\Azure_project\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza.belyahiaoui.FRLT284411\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\hamza.belyahiaoui.FRLT284411\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
