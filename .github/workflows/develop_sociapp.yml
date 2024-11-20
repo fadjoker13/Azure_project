@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - Sociapp
+name: Build and deploy ASP.Net Core app to Azure Web App - SociApp
 
 on:
   push:
@@ -51,15 +51,15 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_7C58102FCD024056AABF0BDB600E604B }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_A149DBEBF6664C0889EDFE232BB1E369 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_0A93202882A343848661EAF21F9A2CBF }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_718C1DCC3EFA4644A81F429C6EAF680F }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_8F0A01F9600E4C30BC74A8D9CF9E6A86 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_CFC30FA124E9461E9279FB1C7160C2D7 }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'Sociapp'
+          app-name: 'SociApp'
           slot-name: 'Production'
           package: .
           
