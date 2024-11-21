@@ -1,6 +1,8 @@
 using Api.Service;
 using Api.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Web;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +18,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IConnectionService, ConnectionService>();
 builder.Services.AddScoped<ICommentService, CommentService>();*/
 
+/* Add authentication directly by Azure AD on cloud.
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
+    .EnableTokenAcquisitionToCallDownstreamApi()
 
+builder.Services.AddAuthorization();
+*/
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -39,7 +47,7 @@ var app = builder.Build();
 
 
 //app.UseHttpsRedirection();
-
+//app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
