@@ -7,16 +7,16 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 var builder = WebApplication.CreateBuilder(args);
 
 // Ajoutez votre DbContext avant de construire l'application
-/*builder.Services.AddDbContext<Context>(options =>
+builder.Services.AddDbContext<Context>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("ConnectionDB"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("ConnectionDB"))
-    ));
-*/
+));
 
-/*builder.Services.AddScoped<IPostService, PostService>();
+
+builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<IConnectionService, ConnectionService>();
-builder.Services.AddScoped<ICommentService, CommentService>();*/
+builder.Services.AddScoped<ICommentService, CommentService>();
 
 /* Add authentication directly by Azure AD on cloud.
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
